@@ -1,0 +1,44 @@
+.container {
+    margin-top: 150px;
+}
+#audio {
+    position: relative;
+}
+#audio div {
+    position: absolute;
+}
+.hidden {
+    visibility: hidden;
+}
+.on { 
+    color: red;
+}
+#audio-name p {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.image {
+    position: relative;
+}
+.image img {
+    width: 28%;
+    position: absolute;
+    right: 0;
+}
+.rotate {
+    animation: rotate infinite linear 10s;
+}
+
+.text {
+    padding: 0;
+    margin-top: 30px;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
